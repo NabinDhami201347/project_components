@@ -35,7 +35,7 @@ function ImageCarousel() {
         height={width / 2}
         autoPlay={true}
         data={data}
-        scrollAnimationDuration={8000}
+        scrollAnimationDuration={1000}
         // onSnapToItem={(index) => console.log("current index:", index)}
         renderItem={({ index, item }) => (
           <View
